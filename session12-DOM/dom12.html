@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dom12.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600&family=Inconsolata:wght@200;300;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="layout">
+      <h1 style="margin-bottom: 10px; margin-top: 100px">Login form</h1>
+      <p
+        style="
+          border-top: 2px solid red;
+          width: 100px;
+          margin-left: 580px;
+          margin-bottom: 50px;
+        "
+      ></p>
+      <div class="noti">
+        <div id="email-error"></div>
+        <div id="error-password"></div>
+      </div>
+
+      <form action="" method="get" id="form">
+        <div class="input-group">
+          <label for="" style="float: left; margin-left: 380px">Email</label>
+          <br />
+          <input
+            type="email"
+            name="email"
+            placeholder="Please input email"
+            style="
+              width: 500px;
+              height: 25px;
+              border-left: none;
+              border-top: none;
+              border-right: none;
+              margin-bottom: 50px;
+              margin-top: 5px;
+            "
+          /><br />
+        </div>
+
+        <div class="input-group">
+          <label for="" style="margin-left: 380px; float: left">Password</label>
+          <br />
+          <input
+            type="password"
+            name="password"
+            placeholder="Please input password"
+            style="
+              width: 500px;
+              height: 25px;
+              margin-bottom: 20px;
+              border-left: none;
+              border-top: none;
+              border-right: none;
+              margin-top: 5px;
+            "
+          />
+        </div>
+        <a
+          href="#"
+          style="
+            display: block;
+            float: right;
+            margin-right: 380px;
+            color: lightpink;
+          "
+          >Forgot password</a
+        >
+        <br />
+
+        <button id="btn">Login</button> <br /><br />
+
+        <div style="margin-top: 20px; color: #183153; font-size: 20px">
+          <a href="https://www.facebook.com"
+            ><i
+              style="margin-right: 50px; color: #183153; font-size: 20px"
+              class="fa-brands fa-facebook"
+            ></i
+          ></a>
+          <a href="https://www.gmail.com"
+            ><i
+              style="margin-right: 50px; color: #183153; font-size: 20px"
+              class="fa-brands fa-google"
+            ></i
+          ></a>
+          <a
+            style="color: #183153; font-size: 20px"
+            href="https://www.linkedin.com"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+       
+      </form>
+   
+
+    <script src="./dom12.js"></script>
+  </body>
+</html>
